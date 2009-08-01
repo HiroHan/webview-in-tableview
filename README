@@ -1,0 +1,10 @@
+
+webview-in-tableview
+====================
+
+This is a very simple code to show you how to integrate a UIWebView in a
+UITableView, the way Mail.app does for HTML emails.
+
+Copyright (c) 2009 Fabien Penso.
+Released under the MIT license.
+http://twitter.com/fabienpenso
