@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	self.title = @"Webview in UITableView";
-	webview = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, 320, 70)]; // Don't use CGRectZero here, won't work
+	webview = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, 320, 10)]; // Don't use CGRectZero here, won't work
 	webview.delegate = self;
 	webview.hidden = YES;
 	
@@ -94,6 +94,7 @@
 
 - (void)dealloc {
     [super dealloc];
+	[webview dealloc];
 }
 
 
